@@ -813,6 +813,24 @@ body.offcanvas {
       background: #81b240; }
     .progress-bar.color-7 span {
       color: #81b240; }
+  .progress-bar.color-8 {
+    background: #b24096; }
+    .progress-bar.color-8:after {
+      background: #b24096; }
+    .progress-bar.color-8 span {
+      color: #b24096; }
+  .progress-bar.color-9 {
+    background: #000000; }
+    .progress-bar.color-9:after {
+      background: #000000; }
+    .progress-bar.color-9 span {
+      color: #000000; }
+  .progress-bar.color-10 {
+    background: #796e76; }
+    .progress-bar.color-10:after {
+      background: #796e76; }
+    .progress-bar.color-10 span {
+      color: #796e76; }
 
 .colorlib-feature {
   text-align: left;
