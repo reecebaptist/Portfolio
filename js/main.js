@@ -306,5 +306,9 @@
 		owlCrouselFeatureSlide();
 	});
 
+	$('.work-menu span a').click(function(){
+		$('span a').removeClass("active");
+		$(this).addClass("active");
+	});
 
 }());
