@@ -1451,3 +1451,8 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.form-group #success {
+  display: none;
+  color: green;
+}
