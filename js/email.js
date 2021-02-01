@@ -2,16 +2,14 @@ function sendEmail() {
     var email = document.getElementById('email').value;
     var name = document.getElementById('name').value;
     var message = document.getElementById('message').value;
-    var subject = document.getElementById('name').value;
+    var subject = document.getElementById('subject').value;
 
     Email.send({ 
-      Host: "smtp.gmail.com", 
-      Username: "portfolioofreece@gmail.com", 
-      Password: "sadlimes257", 
-      To: 'reece.baptist@gmail.com,portfolioofreece@gmail.com', 
-      From: email, 
-      Subject: subject, 
-      Body: message+"\n-"+name, 
+      SecureToken : "69901d68-53c7-4c77-aca9-09076a5963c8",
+      To : 'portfolioofreece@gmail.com,reece.baptist@gmail.com',
+      From : email,
+      Subject : "[PORTFOLIO CONTACT BY: "+name+"] "+subject,
+      Body : message
     }) 
       .then(function (message) { 
         document.getElementById('success').style.display = "block";
